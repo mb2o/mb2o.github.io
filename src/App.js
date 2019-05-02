@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import React from 'react';
@@ -8,12 +9,14 @@ import Header from './components/Header';
 const App = () => (
   <div>
     <Header branding="Contact Manager" />
-    <Contact name="John Doe" email="jdoe@example.com" phone="555-555-5555" />
-    <Contact
-      name="Karen Smith"
-      email="ksmith@example.com"
-      phone="555-213-6666"
-    />
+    <div className="container">
+      <Contact name="John Doe" email="jdoe@example.com" phone="555-555-5555" />
+      <Contact
+        name="Karen Smith"
+        email="ksmith@example.com"
+        phone="555-213-6666"
+      />
+    </div>
   </div>
 );
 
