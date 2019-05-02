@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Header = ({ branding }) => {
   return (
     <div>
-      <h1>{branding}</h1>
+      <h1 style={{ color: 'red', fontSize: 40 }}>{branding}</h1>
     </div>
   );
 };
