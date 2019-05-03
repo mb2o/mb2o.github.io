@@ -10,7 +10,7 @@ class Contacts extends Component {
         {value => {
           return (
             <Fragment>
-              <h1 className="display-4 mb-2">
+              <h1 className="display-4 mb-4">
                 <span className="text-danger">Contact</span> List
               </h1>
               {value.contacts.map(contact => (
