@@ -3,8 +3,8 @@ import './App.css';
 
 import React from 'react';
 
-import Contacts from './components/Contacts';
-import Header from './components/Header';
+import Contacts from './components/contacts/Contacts';
+import Header from './components/layout/Header';
 import { Provider } from './context';
 
 const App = () => (
